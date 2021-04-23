@@ -1,0 +1,37 @@
+body{
+    max-width: 600px;
+    margin: 50px auto 50px;
+}
+div{
+    padding: 15px;
+}
+button .add-item{
+    padding: 10px;
+}
+
+#list span {
+    padding-right: 5px;
+}
+#list span::after {
+    padding-left: 5px;
+    content: "-";
+}
+#list button.first {
+    margin-left: 10px;
+}
+
+form {
+    display: block;
+    position: relative;
+    width: 220px;
+}
+form input {
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+}
+form button {
+    margin-top: 5px;
+    display: block;
+    width: 100%;
+}

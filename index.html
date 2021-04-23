@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Shopping List</title>
+</head>
+<body>
+    <h3>Shopping List</h3>
+    <ul id="list"></ul>
+    <form>
+        <input type="text" id="id-input" placeholder="Edit Id (Only for edit)">
+        <input type="text" id="name" placeholder="Name">
+        <input type="text" id="price" placeholder="Price">
+        <button type="button" onclick="addElement()" class="add-item">Add Product</button>
+        <button type="button" onclick="edit()" class="add-item">Edit Product</button>
+    </form>
+</body>
+<script src="./script.js"></script>
+</html>
